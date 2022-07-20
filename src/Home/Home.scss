@@ -1,0 +1,25 @@
+.Home {
+  .table-header {
+    margin: 1rem;
+    display: flex;
+
+    h1, button {
+      text-align: left;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 1rem;
+
+    tr {
+      td {
+        width: 10vmin;
+        height: 10vmin;
+        border: 1px solid var(--main-color);
+        text-align: center;
+        user-select: none;
+      }
+    }
+  }
+}
