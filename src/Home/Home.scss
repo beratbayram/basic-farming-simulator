@@ -19,6 +19,11 @@
         border: 1px solid var(--main-color);
         text-align: center;
         user-select: none;
+
+        img.crop {
+          max-width: 9vmin;
+          max-height: 9vmin;
+        }
       }
     }
   }

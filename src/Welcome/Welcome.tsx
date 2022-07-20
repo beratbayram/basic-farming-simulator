@@ -14,7 +14,6 @@ export default function Welcome() {
                 <Login/>
                 <SignUp/>
             </div>
-            <button>Tesdadasdadsst</button>
         </>
     );
 }
